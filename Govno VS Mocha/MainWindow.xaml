@@ -14,9 +14,9 @@
         </Grid.ColumnDefinitions>
         
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="120"></RowDefinition>
+            <RowDefinition Height="120"></RowDefinition>
         </Grid.RowDefinitions>
 
         <Expander Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Header="Компания" FontSize="15">
@@ -116,8 +116,9 @@
             </StackPanel>
         </GroupBox>
 
-        <Button Grid.Column="1" Grid.Row="1" Content="Сохранить выбор" Background="#8E9F60" Margin="40, 15" FontSize="15" FontFamily="Arial Black"/>
-        <Button Grid.Column="2" Grid.Row="1" Content="Отменить выбор" Background="#FFAF5D44" Margin="40, 15" FontSize="15" FontFamily="Arial Black"/>
+        <Button Grid.Column="1" Grid.Row="1" Content="Сохранить выбор" Background="#8E9F60" Margin="10, 10" Height="75"  FontFamily="Arial Black"/>
+        <Button Grid.Column="2" Grid.Row="1" Content="Отменить выбор" Background="#FFAF5D44" Margin="10, 10" Height="75"  FontFamily="Arial Black"/>
+
 
         <WrapPanel Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" >
             <CheckBox Content="Адмиистраротр баз данных" FontSize="15"/>
