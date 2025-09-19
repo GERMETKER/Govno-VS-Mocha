@@ -12,14 +12,14 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Expander Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Header="Компани">
+        <Expander Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Header="Компания" FontSize="15">
             <StackPanel Background ="LightGray">
                 <RadioButton Content="Лнит" IsChecked="True" GroupName="company.group"/>
                 <RadioButton Content="СКБ Контур" GroupName="company.group"/>
@@ -55,13 +55,55 @@
                 <RadioButton Content="Ростелеком" GroupName="company.group"/>
                 <RadioButton Content="Cisco" GroupName="company.group"/>
                 <RadioButton Content="Asbis" GroupName="company.group"/>
-                
-                
+
+                <RadioButton Content="Лнит" GroupName="company.group"/>
+                <RadioButton Content="СКБ Контур" GroupName="company.group"/>
+                <RadioButton Content="Ростех" GroupName="company.group"/>
+                <RadioButton Content="Ростелеком" GroupName="company.group"/>
+                <RadioButton Content="Cisco" GroupName="company.group"/>
+                <RadioButton Content="Asbis" GroupName="company.group"/>
+
+                <RadioButton Content="Лнит" GroupName="company.group"/>
+                <RadioButton Content="СКБ Контур" GroupName="company.group"/>
+                <RadioButton Content="Ростех" GroupName="company.group"/>
+                <RadioButton Content="Ростелеком" GroupName="company.group"/>
+                <RadioButton Content="Cisco" GroupName="company.group"/>
+                <RadioButton Content="Asbis" GroupName="company.group"/>
+
+                <RadioButton Content="Лнит" GroupName="company.group"/>
+                <RadioButton Content="СКБ Контур" GroupName="company.group"/>
+                <RadioButton Content="Ростех" GroupName="company.group"/>
+                <RadioButton Content="Ростелеком" GroupName="company.group"/>
+                <RadioButton Content="Cisco" GroupName="company.group"/>
+                <RadioButton Content="Asbis" GroupName="company.group"/>
+
+                <RadioButton Content="Лнит" GroupName="company.group"/>
+                <RadioButton Content="СКБ Контур" GroupName="company.group"/>
+                <RadioButton Content="Ростех" GroupName="company.group"/>
+                <RadioButton Content="Ростелеком" GroupName="company.group"/>
+                <RadioButton Content="Cisco" GroupName="company.group"/>
+                <RadioButton Content="Asbis" GroupName="company.group"/>
+
+                <RadioButton Content="Лнит" GroupName="company.group"/>
+                <RadioButton Content="СКБ Контур" GroupName="company.group"/>
+                <RadioButton Content="Ростех" GroupName="company.group"/>
+                <RadioButton Content="Ростелеком" GroupName="company.group"/>
+                <RadioButton Content="Cisco" GroupName="company.group"/>
+                <RadioButton Content="Asbis" GroupName="company.group"/>
+
+                <RadioButton Content="Лнит" GroupName="company.group"/>
+                <RadioButton Content="СКБ Контур" GroupName="company.group"/>
+                <RadioButton Content="Ростех" GroupName="company.group"/>
+                <RadioButton Content="Ростелеком" GroupName="company.group"/>
+                <RadioButton Content="Cisco" GroupName="company.group"/>
+                <RadioButton Content="Asbis" GroupName="company.group"/>
+
+
             </StackPanel>
 
         </Expander>
 
-        <GroupBox Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" Header="Компиляторы">
+        <GroupBox Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" Header="Компиляторы" FontSize="15">
             <StackPanel>
                 <CheckBox Content="Visual Studio" IsChecked="True"/>
                 <CheckBox Content="Visual Studio Code"/>
@@ -74,7 +116,21 @@
             </StackPanel>
         </GroupBox>
 
-        <Button Grid.Column="1" Grid.Row="1" Content="Сохранить выбор" Background="#8E9F60" Margin="40, 5"/>
-        <Button Grid.Column="2" Grid.Row="1" Content="Отменить выбор" Background="#FFAF5D44" Margin="40, 5"/>
+        <Button Grid.Column="1" Grid.Row="1" Content="Сохранить выбор" Background="#8E9F60" Margin="40, 15" FontSize="15" FontFamily="Arial Black"/>
+        <Button Grid.Column="2" Grid.Row="1" Content="Отменить выбор" Background="#FFAF5D44" Margin="40, 15" FontSize="15" FontFamily="Arial Black"/>
+
+        <WrapPanel Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" >
+            <CheckBox Content="Адмиистраротр баз данных" FontSize="15"/>
+            <CheckBox Content="Администратор вычислительной сети" FontSize="15"/>
+            <CheckBox Content="Администраротр защиты" FontSize="15"/>
+            <CheckBox Content="Аналитик програмного обеспечения" FontSize="15" />
+            <CheckBox Content="Архитектор програмного обеспечения" FontSize="15"/>
+            <CheckBox Content="Ведущий программист" FontSize="15" />
+            <CheckBox Content="Контент-менеджер" FontSize="15" />
+            <CheckBox Content="Тестировщик" FontSize="15"/>
+            <CheckBox Content="Технический писатель" FontSize="15" />
+            <CheckBox Content="Системный аналитик" FontSize="15" />
+
+        </WrapPanel>
     </Grid>
 </Window>
